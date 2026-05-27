@@ -25,7 +25,7 @@ A controlled multi-VM lab environment for executing and documenting real attack 
 | [Network Reconnaissance via Nmap](https://github.com/Adam-KD/soc-simulations/blob/main/simulations/01-nmap-recon/report.md) | Reconnaissance | Wazuh and Sysmon have zero visibility into network-level scanning — IDS required |
 | [RDP Brute Force Attack & Detection](https://github.com/Adam-KD/soc-simulations/blob/main/simulations/02-rdp-brute-force/report.md) | Credential Access | Detection is speed-dependent; NLA bypassed via NTLM fallback; full kill chain captured |
 
-### [IOC Extractor](https://github.com/Adam-KD/python-soc/projects/IOC_Extractor)
+### [IOC Extractor](https://github.com/Adam-KD/python-soc/tree/master/projects/IOC_Extractor)
 CLI tool that parses threat reports and extracts indicators of compromise — IPs, domains, hashes, emails, CVEs — via regex, with JSON/CSV export. API enrichment (AbuseIPDB, VirusTotal) in development.
 
 ### [Ghostwave](https://github.com/Adam-KD/ghostwave) (Still in Development)
