@@ -28,7 +28,7 @@ A segmented multi-VM SOC lab (Kali, Ubuntu gateway, two Windows endpoints) with 
 ### [SQL Security Investigations](https://github.com/Adam-KD/sql-soc)
 Simulated attack scenario investigations using SQLite. Covers brute force authentication attacks and DNS-based data exfiltration. Each investigation includes threat intel enrichment via multi-table JOINs, beaconing detection using window functions (LAG), and a full findings report with IOCs, timeline, and recommendations.
 
-### [IOC Extractor](https://github.com/Adam-KD/python-soc/tree/master/projects/IOC_Extractor)
+### [IOC Extractor - Python](https://github.com/Adam-KD/python-soc/tree/master/projects/IOC_Extractor)
 CLI tool that parses threat reports and extracts IPs, domains, file hashes (MD5/SHA1/SHA256), emails, and CVE IDs via regex. Handles defanged IOCs automatically. Enriches indicators via AbuseIPDB, VirusTotal, and NVD. Outputs to terminal, JSON, CSV, or SQLite for persistent cross-report querying.
 
 ### [Ghostwave](https://github.com/Adam-KD/ghostwave) *(In Development)*
